@@ -10,7 +10,6 @@ int n = 4;
 int[,] array = new int[n, n];
 
 int num = 1;
-int delta = 0;
 PrintArray(array);
 
         for (int delta = 0; delta < n - 2; delta++)
@@ -39,6 +38,7 @@ PrintArray(array);
                 num++;
             }
         }
+
 
 void PrintArray(int[,] array)
 {
